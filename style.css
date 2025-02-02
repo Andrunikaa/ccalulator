@@ -541,6 +541,7 @@ html,body{
 @media(max-width:780px){
     .calculator{
         width: 50%;
+        height: 1000px;
         padding-right: 135px;
         align-items: center;
 }
