@@ -541,10 +541,8 @@ html,body{
 @media(max-width:780px){
     .calculator{
         width: 50%;
-        height: 1000px;
         padding-right: 135px;
-        align-items: center;
-}
+        align-items: center;}
 .calculator__info{
     display: flex;
     flex-direction: column;
@@ -611,11 +609,13 @@ html,body{
     width: 30px;
     height: 35px;
     font-size: 25px;
+    display: block;
 }
 .calculator__counter-plusButton {
     width: 30px;
     height: 35px;
     font-size: 25px;
+    display: block;
 }
 
 }
