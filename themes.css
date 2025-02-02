@@ -1,0 +1,14 @@
+.page.theme_dark{
+    --text-color: white;
+    --bgcolor:#3d3d3d;
+    --bodybgcolor:black;
+    --bgimage:url(images/button__close-image-dark.png);
+   
+}
+
+.page.theme_light{
+    --text-color: black;
+    --bgcolor:white;
+    --bodybgcolor:grey;
+    --bgimage:url(images/button__close-image-light.png);
+}

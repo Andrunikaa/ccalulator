@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="themes.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <template><div class="themes">
+        <div class="themes__header">
+            <h2 class="themes__title">Тема офрмления</h2>
+            <button class="themes__button-close"></button>
+        </div>
+        <div class="header__themes">
+            <button class="header__theme-menu-button_type_dark header__theme-menu-button" >
+                <img class="themes__button-image" src="images/moon (1).png" >
+                <p class="button-description">Темная</p>
+            </button>
+            <button class="header__theme-menu-button_type_light header__theme-menu-button">
+                <img src="images/sun (1).png">
+                <p class="button-description">Светлая</p>
+            </button>
+        </div>
+    </div>
+</template>
+<div class="calculator">
+    <div class="calculator__info">
+        <div class="calculator__text">
+            <p class="calculator__logo">Рассчитайте выгоду</p>
+            <h2 class="calculator__h2">Какое вознаграждение вас ждёт</h2>
+        </div>
+        <p class="calculator__description">Приблизительные данные, рассчитанные на основе партнерской статистики</p>
+    </div>
+    <div class="calculator__logic">
+        <div class="calculator__counter">
+            <h3 class="calculator__counter-title">Покупки по вашей ссылке</h3>
+            <div class="calculator__counter-interacrtive">
+                <button class="calculator__counter-minusButton">&#8722;</button>
+                <p class="calculator__counter-value">2</p>
+                <button class="calculator__counter-plusButton">&#43;</button>
+            </div>
+        </div>
+        <div class="calculator__slider">
+            <h3 class="calculator__slider-title">Средняя стоимость курса</h3>
+            <input type="range" step="1000" min="1000" max="30000" class="calculator__slider-range">
+            <div class="calculator__slider-costs">
+                <p class="calculator__slider-cost">10 тыс. ₽</p>
+                <p  class="calculator__slider-cost">300 тыс. ₽</p>
+            </div>
+        </div>
+        <div class="calculator__result">
+            <div class="calculator__result-text">
+                <h2 class="calculator__result-title">Вы получите:</h2>
+                <div class="calculator__counter-outout">
+                    <p class="calculator__result-value">10000</p>
+                    <p class="rubble"> &#8381</p>
+                </div>
+            </div>
+                <img class="calculator__result-image" src="images/calculator__result-image.png" alt="">
+            
+        </div>
+    </div>
+
+</div>
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
